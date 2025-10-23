@@ -8,7 +8,7 @@ int sum(int a,int b)
 
 int main()
 {
-    int sum1,sum2,temp;
+    int sum1,sum2;
     for(int i=1;i<=19;i++)// i<=19 each number has already been operated with 20
     {
         
