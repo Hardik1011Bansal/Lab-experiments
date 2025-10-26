@@ -30,6 +30,12 @@ int main()
         printf("Prime cannot be evaluated for non positive numbers.Please enter a positive range ");
         return 0;
     }
+    if(num1>num2)
+    {
+        int temp=num1;
+        num1=num2;
+        num2=temp;
+    }
     for(int i=num1;i<=num2;i++)
     {
         if(ISPRIME(i)==1)
