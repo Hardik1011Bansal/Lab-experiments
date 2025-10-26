@@ -8,7 +8,10 @@ int FIBO(int num)
     {
         return num-1;
     }
+   else
+    {
    return FIBO(num-1)+FIBO(num-2);
+    }
 }
 
 int main() 
