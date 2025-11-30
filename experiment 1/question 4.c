@@ -1,0 +1,10 @@
+//4. Write a C program to add two numbers, take number from user.
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the numbers:");
+    scanf("%d%d",&a,&b);
+    printf("%d",a+b);
+    return 0;
+}
